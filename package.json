@@ -1,0 +1,22 @@
+{
+  "name": "gologin-profile-creator",
+  "version": "1.0.0",
+  "description": "A Node.js script to create and manage GoLogin profiles",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bao-hoang",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.5",
+    "imap-simple": "^4.3.0",
+    "nodemailer": "^6.9.13",
+    "puppeteer-core": "^22.15.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "simple-oauth2": "^5.0.0"
+  }
+}
